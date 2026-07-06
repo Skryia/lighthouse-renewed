@@ -137,6 +137,7 @@ h3 { font-size: 1.25rem; }
 .nav-links a:not(.btn):hover::after,
 .nav-links a.active:not(.btn)::after { width: 100%; }
 .nav-links .btn { color: #fff; }
+.nav.scrolled .nav-links .btn { color: #fff; }
 
 .nav-toggle {
   display: none; background: none; border: 0; cursor: pointer;
